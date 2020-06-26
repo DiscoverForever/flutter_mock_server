@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+start.sh
+.avoscloud
+.leancloud
+.DS_Store
+# VIM
+*~
+*.swp
+
+# config
+*.config.ts
+*.config.json
+
+# dist
+/dist

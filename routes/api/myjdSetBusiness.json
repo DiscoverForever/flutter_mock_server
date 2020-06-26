@@ -1,0 +1,406 @@
+{
+	"code": 0,
+	"floors": [{
+		"bId": "settingsUserInfo_flo_388",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "empty"
+		},
+		"data": {
+			"nodes": [{
+				"functionId": "yonghuxinxi",
+				"userInfoSns": "CxkZloao1MrB4Cdt9VQIdTc85E0pVDcZckTBByOAopt4RTS8Q1U4uxM9/ZVVATXgmoCqx59wRPIsTiEe21lfjZzexpoRrZB+8zpz5p7V0biYllbF9rNJvyFsQ4FYf3Jrkz4HmoAPfDeme0ez0EHmZUZuINh5IKGKdswIv8MO6JQSl0zpgxeqAI/LbhvNp6mQw5FOAQZacM4prXJbfbVqY63wyv4pb6gnD42nhQb1OiUZWIDgZSFDTR163SHjjVubh1L7OdVljWxqk+37wPasrlYyVsQapAKyYktZ3H2QF9IbnEmENeaCy6OwY84Xyw4PZDhAqWStkXXK+cHFvt1WFYIPYFuXjRq98mVH9TJBg61fmRvRznZuaA==",
+				"enc": 2
+			}],
+			"angleStyle": "1"
+		},
+		"mId": "settingsUserInfo",
+		"refId": "settingsUserInfo_1",
+		"sortId": 2
+	}, {
+		"bId": "settingsFloors_flo_389",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "line"
+		},
+		"data": {
+			"nodes": [{
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDCheckoutModule/showAddressManagePage?title=地址管理",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "地址管理"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "Accountset_Manageaddress",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 1544418000000,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"showRedDot": 0,
+				"functionId": "dizhiguanli",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}],
+			"angleStyle": "1"
+		},
+		"mId": "settingsFloors",
+		"refId": "settingsFloors_1",
+		"sortId": 3
+	}, {
+		"bId": "settingsFloors_flo_390",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"nodes": [{
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://v.m.jd.com/user/apppay.action",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "账户与安全"
+				},
+				"clickMta": {
+					"eventParam": "账户保障可升级",
+					"eventId": "Accountset_Accountsafe",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": "账户保障可升级"
+				},
+				"showRedDot": 0,
+				"functionId": "zhanghuanquan",
+				"expoMta": {
+					"eventParam": "账户保障可升级",
+					"eventId": "MyJD_Accountset_Safe_Expo",
+					"pageId": "MyJD_Accountset"
+				}
+			}, {
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDDynamicFontSizeModule/showDynamicFontSizePage",
+					"needLogin": 0
+				},
+				"introducTitle": "点击按钮切换文字大小",
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "Accountset_WordSize",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"goodsPriceSuffix": ".00",
+				"introducBrife": "设置后，会改变京东首页、搜索、商详等页面的字体大小。如果使用过程中存在任何问题，请反馈给京东。",
+				"showRedDot": 1,
+				"goodsImage": "https://img30.360buyimg.com/mobilecms/jfs/t1/95168/24/2713/30776/5dd3b919E60fa1fd9/05c335c523e85829.png",
+				"goodsPricePrefix": "￥",
+				"jumpStyle": 1,
+				"title": {
+					"color": "#2e2e2e",
+					"value": "设置字体大小"
+				},
+				"updateRedDotTime": 1573362000000,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"goodsTitle": "无线消噪耳机头戴式手势触控无线蓝牙主动降噪长续航耳罩式耳机",
+				"goodsPrice": "2999",
+				"functionId": "fontsetting"
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDMyJdModule/showPaySetting",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "支付设置"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Accountset_Pay",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 1544594400000,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"showRedDot": 0,
+				"functionId": "zhifushezhi",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://invoice.jd.com/m/zpzz/mzp_mIndex.action",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "增票资质"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Accountset_VATinvoice",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": "添加增票资质"
+				},
+				"showRedDot": 0,
+				"functionId": "zengpiaozizhi",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDMyJdModule/showMyjdPersonalFile",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "我的档案"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Accountset_Archives",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": "添加汽车/宝宝等档案"
+				},
+				"showRedDot": 0,
+				"functionId": "wodedangan",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDMyJdModule/showSettingVC?title=通用&aboutAB=B",
+					"needLogin": 0
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "通用"
+				},
+				"clickMta": {
+					"eventParam": "1",
+					"eventId": "MyJD_Accountset_Set",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": "清除本地缓存等"
+				},
+				"showRedDot": 0,
+				"functionId": "tongyong",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}],
+			"angleStyle": "0"
+		},
+		"mId": "settingsFloors",
+		"refId": "settingsFloors_2",
+		"sortId": 4
+	}, {
+		"bId": "settingsFloors_flo_391",
+		"cf": {
+			"bgc": "#ffffff",
+			"spl": "grey_strip_CH"
+		},
+		"data": {
+			"nodes": [{
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://plus.m.jd.com/index?flow_system=myhome&flow_entrance=myhome2&flow_channel=ios",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "PLUS会员"
+				},
+				"clickMta": {
+					"eventParam": "203",
+					"eventId": "Accountset_VIPlus",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 1544418000000,
+				"subtitle": {
+					"color": "#848484",
+					"value": "已过期，共为您节省406元"
+				},
+				"showRedDot": 0,
+				"functionId": "huiyuanplus",
+				"expoMta": {
+					"eventParam": "203",
+					"eventId": "Accountset_VIPlusExpo",
+					"pageId": "MyJD_Accountset"
+				}
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 1,
+					"jumpUrl": "https://myfamily.jd.com?jdreactkey=JDReactMyFamily&jdreactapp=JDReactMyFamily&rn_transparentenable=true&rn_page=familySetting&ishidden=true&rn_source=setting",
+					"needLogin": 1
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "家庭号设置"
+				},
+				"clickMta": {
+					"eventParam": "0",
+					"eventId": "MyJD_Accountset_FamilySet",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 0,
+				"subtitle": {
+					"color": "#848484",
+					"value": "帮我付/快捷聊/亲密卡等"
+				},
+				"showRedDot": 0,
+				"functionId": "jiatinghao",
+				"expoMta": {
+					"eventParam": "0",
+					"eventId": "MyJD_Accountset_FamilySetExpo",
+					"pageId": "MyJD_Accountset"
+				}
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDMyJdModule/goToLaboratryPage",
+					"needLogin": 0
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "功能实验室"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "Accountset_Laboratory",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 1557464400000,
+				"subtitle": {
+					"color": "#848484",
+					"value": "提前体验新功能"
+				},
+				"showRedDot": 0,
+				"functionId": "innovationlab"
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDMyJdModule/showFeedbackPage?source=1&from=shezhi",
+					"needLogin": 0
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "功能反馈"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Accountset_Feedback",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 1544418000000,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"showRedDot": 0,
+				"functionId": "gongnengfankui",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}, {
+				"jumpStyle": 1,
+				"jumpInfo": {
+					"jumpType": 4,
+					"jumpUrl": "router://JDMyJdModule/showAboutPage?title=关于京东APP",
+					"needLogin": 0
+				},
+				"title": {
+					"color": "#2e2e2e",
+					"value": "关于京东APP"
+				},
+				"clickMta": {
+					"eventParam": "",
+					"eventId": "MyJD_Accountset_AboutJD",
+					"pageId": "MyJD_Accountset",
+					"pageLevel": ""
+				},
+				"updateRedDotTime": 1544418000000,
+				"subtitle": {
+					"color": "#848484",
+					"value": ""
+				},
+				"showRedDot": 0,
+				"functionId": "guanyu",
+				"expoMta": {
+					"eventParam": "",
+					"eventId": "",
+					"pageId": ""
+				}
+			}],
+			"angleStyle": "0"
+		},
+		"mId": "settingsFloors",
+		"refId": "settingsFloors_3",
+		"sortId": 5
+	}],
+	"others": {}
+}
